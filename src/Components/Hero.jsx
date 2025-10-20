@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import profileImage from "../assets/Profile.jpg";
 
 const Hero = () => {
 
@@ -52,7 +53,7 @@ const Hero = () => {
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-neutral-700 to-neutral-800 opacity-50 blur-2xl" />
               <div className="relative w-full h-full rounded-full overflow-hidden border border-neutral-700 shadow-2xl">
                 <img
-                  src="/src/assets/Profile.jpg"
+                  src={profileImage}
                   alt="Amrutha Reddy Karumuru"
                   className="w-full h-full object-cover object-center grayscale hover:grayscale-0 transition-all duration-500"
                   onError={(e) => {
