@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import ResumeButton from "./ResumeButton";
 import { EXPERIENCES } from "../constants";
 
 const About = () => {
@@ -33,17 +32,6 @@ const About = () => {
               delivery ahead of schedule in Agile environments.
             </p>
           </div>
-        </motion.div>
-
-        {/* Resume Button */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="flex justify-center mb-12 sm:mb-16 md:mb-20"
-        >
-          <ResumeButton />
         </motion.div>
 
         {/* Experience & Education Timeline */}
